@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  direction: rtl;
+  user-select: none;
+}
+
+.btn-black-rounded{
+  @apply w-full border border-gray-500 outline-none transition-all hover:border-gray-400 hover:text-gray-700 active:bg-gray-50 rounded-full px-4 py-1
+}
+
+.btn-black-fill{
+  @apply w-full outline-none transition-all hover:bg-gray-700 rounded-md active:bg-gray-800 px-4 py-2  bg-gray-800 text-white
+}
+.btn-dark-orange-fill{
+  @apply w-full outline-none transition-all hover:bg-orange-600 rounded-md active:bg-orange-700 px-4 py-2  bg-orange-700 text-white
+}
